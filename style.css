@@ -56,7 +56,7 @@ ul {
  width: 463px;
  height: 36px;
 display: flex; 
-justify-content: right;
+justify-content: end;
 gap: 20px;
 list-style: none;
 padding-top: 1rem;
@@ -116,8 +116,6 @@ border: 1px solid red;
    
     width: 70%;
     margin-left: 5rem;
-   
-
 
 }
 
@@ -125,15 +123,12 @@ border: 1px solid red;
 
     width: 50%;
     z-index: 1;
-
-  
   
 }
 .banner-img-cam {
     position: absolute;
-    top: 50%; /* Adjust as needed */
-    left: 50%; /* Adjust as needed */
-    transform: translate(40%, -93%); /* Center the cam image over the circle image */
+   
+    transform: translate(20%, -103%); /* Center the cam image over the circle image */
     z-index: 1;
 }
 
@@ -163,6 +158,8 @@ border: 1px solid red;
     margin-left: 1rem;
    }
 
+
+
    .nav{
     display:none;
     border: 1px solid red;
@@ -176,9 +173,69 @@ border: 1px solid red;
 
 
 
+    /* banner-section */
+
+
+    .banner{
+  
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-content-1{
+        order: 2;
+        width: 20rem;
+        height:18rem;
+        border: 1px solid red;
+     
+        text-align: center;
+        
+        }
+    
+ 
+
+
+
+
+
+
+
+.banner-img-container{
+
+    order: 1;
+    width: 17rem;
+    height:13rem;
+    border: 1px solid red;
+ 
+    padding-right: 10px;
+   
+   margin: 0 auto;
+   margin-bottom: 1rem;
+    padding-top: 10%;
+    padding-right: 10%;
+   
+}
+
+.banner-img-circle img{
+   
+    width: 60%;
    
 
+}
 
+.banner-img-cam img {
+
+    width: 40%;
+    z-index: 1;
+  
+}
+.banner-img-cam {
+    position: absolute;
+    /* Adjust as needed */
+    transform: translate(20%, -103%); /* Center the cam image over the circle image */
+    z-index: 1;
+}
 
 
     
